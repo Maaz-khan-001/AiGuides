@@ -1,0 +1,17 @@
+# Apple Touch Icon Instructions
+
+This file should be replaced with a 180x180 PNG image of your favicon.
+
+To generate the Apple touch icon:
+
+1. Use the favicon.svg as a base
+2. Convert it to a 180x180 PNG image
+3. Ensure it has a transparent or white background
+4. The design should be the same as the SVG favicon
+
+You can use online tools like:
+- https://convertio.co/svg-png/
+- https://cloudconvert.com/svg-to-png
+- Or any image editing software like Photoshop, GIMP, or Figma
+
+The icon should represent the AI/neural network theme with blue and teal gradients.

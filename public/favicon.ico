@@ -1,0 +1,17 @@
+# Favicon.ico Instructions
+
+This file should be replaced with a 16x16, 32x32, and 48x48 ICO format favicon.
+
+To generate the favicon.ico:
+
+1. Use the favicon.svg as a base
+2. Convert it to multiple sizes: 16x16, 32x32, and 48x48 pixels
+3. Combine them into a single .ico file
+4. The design should be the same as the SVG favicon
+
+You can use online tools like:
+- https://favicon.io/favicon-converter/
+- https://www.favicon-generator.org/
+- https://realfavicongenerator.net/
+
+The icon should represent the AI/neural network theme with blue and teal gradients.
