@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BlogCard, CategoryFilter, SearchBar } from '../components/ui';
-<<<<<<< HEAD
 import { getAllPosts, getPostsByCategory } from '../utils/mdx';
-import { supabase } from '../lib/supabaseClient';  // ✅ import supabase client
-=======
-import { getAllPosts, getPostsByCategory, getCategories } from '../utils/mdx';
->>>>>>> 610c84111bf74945ffd0b562e6cdff85566417e8
+
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
@@ -16,16 +12,11 @@ const Blog = () => {
 
   useEffect(() => {
     document.title = 'Blog - AI Guides Hub';
-<<<<<<< HEAD
     const description =
       'Explore our comprehensive collection of AI guides, tutorials, and insights to accelerate your learning journey.';
     document
       .querySelector('meta[name="description"]')
       ?.setAttribute('content', description);
-=======
-    const description = 'Explore our comprehensive collection of AI guides, tutorials, and insights to accelerate your learning journey.';
-    document.querySelector('meta[name="description"]')?.setAttribute('content', description);
->>>>>>> 610c84111bf74945ffd0b562e6cdff85566417e8
   }, []);
 
   useEffect(() => {
@@ -62,10 +53,7 @@ const Blog = () => {
     filterPosts();
   }, [selectedCategory]);
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 610c84111bf74945ffd0b562e6cdff85566417e8
   // Pagination
   const postsPerPage = 9;
   const indexOfLastPost = currentPage * postsPerPage;
@@ -102,11 +90,8 @@ const Blog = () => {
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             Master ChatGPT, explore AI tools, and stay ahead of the curve with our expert guides
           </p>
-<<<<<<< HEAD
 
           
-=======
->>>>>>> 610c84111bf74945ffd0b562e6cdff85566417e8
         </div>
       </div>
 
@@ -114,11 +99,7 @@ const Blog = () => {
       <div className="bg-gray-100 dark:bg-gray-900 py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-6 items-center justify-between">
-<<<<<<< HEAD
             <CategoryFilter
-=======
-            <CategoryFilter 
->>>>>>> 610c84111bf74945ffd0b562e6cdff85566417e8
               selectedCategory={selectedCategory}
               onCategoryChange={setSelectedCategory}
             />
@@ -179,7 +160,6 @@ const Blog = () => {
           ) : (
             <div className="text-center py-12">
               <div className="text-gray-500 dark:text-gray-400">
-<<<<<<< HEAD
                 <svg
                   className="w-16 h-16 mx-auto mb-4 opacity-50"
                   fill="none"
@@ -192,10 +172,6 @@ const Blog = () => {
                     strokeWidth={2}
                     d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                   />
-=======
-                <svg className="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
->>>>>>> 610c84111bf74945ffd0b562e6cdff85566417e8
                 </svg>
                 <h3 className="text-xl font-medium mb-2">No posts found</h3>
                 <p>Try selecting a different category or search term.</p>
@@ -208,8 +184,4 @@ const Blog = () => {
   );
 };
 
-<<<<<<< HEAD
 export default Blog;
-=======
-export default Blog;
->>>>>>> 610c84111bf74945ffd0b562e6cdff85566417e8

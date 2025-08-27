@@ -102,13 +102,8 @@ const MDXPost = () => {
             to="/blog" 
             className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
           >
-<<<<<<< HEAD
             
             
-=======
-            <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Blog
->>>>>>> 610c84111bf74945ffd0b562e6cdff85566417e8
           </Link>
         </div>
       </div>
