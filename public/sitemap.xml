@@ -6,68 +6,68 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://aiguideshub.com/</loc>
-    <lastmod>2024-12-15</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://ai-guides.vercel.app</loc>
+    <lastmod>2025-8-27</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <!-- Blog page -->
   <url>
-    <loc>https://aiguideshub.com/blog</loc>
-    <lastmod>2024-12-15</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://ai-guides.vercel.app/blog</loc>
+    <lastmod>2025-8-27</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <!-- About page -->
   <url>
-    <loc>https://aiguideshub.com/about</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://ai-guides.vercel.app/about</loc>
+    <lastmod>2025-8-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <!-- Contact page -->
   <url>
-    <loc>https://aiguideshub.com/contact</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://ai-guides.vercel.app/contact</loc>
+    <lastmod>2025-8-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <!-- Blog posts -->
   <url>
-    <loc>https://aiguideshub.com/blog/what-happened-to-chatgpt-plugins-gpts-explained</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://ai-guides.vercel.app/blog/what-happened-to-chatgpt-plugins-gpts-explained</loc>
+    <lastmod>2025-8-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://aiguideshub.com/blog/how-to-upload-pdf-to-chatgpt</loc>
-    <lastmod>2024-12-10</lastmod>
+    <loc>https://ai-guides.vercel.app/blog/how-to-upload-pdf-to-chatgpt</loc>
+    <lastmod>2025-8-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://aiguideshub.com/blog/best-gpts-in-gpt-store-2025</loc>
-    <lastmod>2024-12-08</lastmod>
+    <loc>https://ai-guides.vercel.app/blog/best-gpts-in-gpt-store-2025</loc>
+    <lastmod>2025-8-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://aiguideshub.com/blog/how-to-create-your-own-gpt</loc>
-    <lastmod>2024-12-05</lastmod>
+    <loc>https://ai-guides.vercel.app/blog/how-to-create-your-own-gpt</loc>
+    <lastmod>2025-8-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://aiguideshub.com/blog/chatgpt-for-students-best-gpts</loc>
-    <lastmod>2024-12-01</lastmod>
+    <loc>https://ai-guides.vercel.app/blog/chatgpt-for-students-best-gpts</loc>
+    <lastmod>2025-8-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
